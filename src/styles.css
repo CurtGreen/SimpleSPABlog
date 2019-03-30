@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+.parallax-container {
+    height:300px;
+}
+
+.card .card-content {
+    height: auto;
+    overflow-y: auto;
+}
+
+.text-IBM-Plex {
+    font-family:'IBM Plex Mono', monospace;
+    /* font-family: 'Niconne', cursive; */
+}
+
+#articleBody{
+    padding:5%;
+}
+
+#articleBody h2{
+    font-family: 'Niconne', cursive;
+}
+
+pre {
+    overflow: auto;
+}
+code {
+    color: rgb(0,255,0);
+}
+/* h3{
+    font-size:0.8em;
+    font-style:oblique;
+} */
+

@@ -1,0 +1,28 @@
+<div id="articleBody" class="container z-depth-1" style="min-height:800px;">
+  <div class="row">
+    <div class="row">
+      <div class="col s6">
+        <input [(ngModel)]="newDocument.title" type="text" id="docTitle" placeholder="Title" required>
+        <label for="title">Article Title</label>
+      </div>
+      <div class="col s6">
+        <input [(ngModel)]="newImage" id="newImage" type="file" required>
+        <label for="articleImage">Image</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s6">
+        <input [(ngModel)]="newDocument.description" type="text" id="description" placeholder="description">
+        <label for="title">Article Description</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <textarea [(ngModel)]="newDocument.content" id="articleContent" class="materialize-textarea"></textarea>
+        <label for="articleContent">Content</label>
+      </div>
+      <button class="btn waves-effect waves-green" (click)="store()" type=submit>Submit</button>
+    </div>
+
+  </div>
+</div>

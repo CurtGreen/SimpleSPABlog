@@ -1,0 +1,6 @@
+<div id="articleBody" class="container z-depth-2">
+  <h2 class="text-Niconne">{{(article | async)?.title}}</h2>
+  <h3>Published {{(article | async)?.published.toLocaleString()}}</h3>
+  <div class="card-panel grey lighten-4 large center-align" style="margin:auto;"><img src="{{(article | async)?.image}}" alt="" class="responsive-img card-image"></div>
+  <div [innerHTML]="(article | async)?.content"></div>
+</div>

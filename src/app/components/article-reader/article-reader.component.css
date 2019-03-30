@@ -1,0 +1,35 @@
+.text-IBM-Plex {
+    font-family:'IBM Plex Mono', monospace;
+}
+
+.text-Niconne {
+    font-family: 'Niconne', cursive;
+}
+
+#articleBody{
+    padding:5%;
+}
+
+code {
+    color: rgb(0,255,0);
+  
+}
+/* h3{
+    font-size:0.8em;
+    font-style:oblique;
+} */
+
+div.card-image h3 {
+    font-size:1.1em;
+    
+    padding:10px;
+}
+
+h3 {
+
+    font-size:10pt;
+    
+    padding:10px;
+    margin:0px;
+
+}

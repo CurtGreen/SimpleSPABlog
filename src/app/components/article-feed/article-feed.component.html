@@ -1,0 +1,23 @@
+<div class="container">
+  <h2 class="heading">
+    <em>Recent Posts</em>
+  </h2>
+
+  <div class="card" *ngFor="let article of articles | async">
+    <div class="card-image">
+      <img class="responsive-image" src="{{article.image}}">
+    </div>
+    <div class="card-content">
+      <div class="row">
+        <div class="col s12">
+          <span class="card-title text-Niconne">
+            <a routerLink="/article/{{article.id}}">{{article.title}}</a>
+          </span>
+          <span class="grey-text lighten-1"> Published {{article.published.toLocaleString()}}</span>
+          <div class="card-content" [innerHTML]="article.content.substr(0,500)"></div>
+          
+        </div>
+      </div>
+
+    </div>
+  </div>
