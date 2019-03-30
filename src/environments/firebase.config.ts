@@ -1,10 +1,10 @@
 export const FirebaseConfig = {
     firebase: {
-        apiKey: "AIzaSyCHoTYvVzAybr1T92wg6X5rYNhM9mLMYh4",
-        authDomain: "backslash-code.firebaseapp.com",
-        databaseURL: "https://backslash-code.firebaseio.com",
+        apiKey: "YOUR KEY HERE",
+        authDomain: "yourdomain.com",
+        databaseURL: "yourdatabaseurl.com",
         projectId: "backslash-code",
-        storageBucket: "backslash-code.appspot.com",
-        messagingSenderId: "248490195363"
+        storageBucket: "yourbucket.bucket.com",
+        messagingSenderId: "youridnumbers"
     }
 };
